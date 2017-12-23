@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <h1>Kraak de geheime code om verder te gaan</h1>
+  <input type="password" id="code"></input>
+  <button id="button" onclick="myFunction()">Probeer de code</button>
+  <p id="errorcode"></p>
+  <script>
+	function myFunction() 
+	{ 
+		if(document.getElementById("code").value == "potjandorie")
+		{
+			document.write("<b>holy moly je hebt zojuist het meest beveiligde security systeem gekraakt,</b> <br> " +
+			"het was door de geweldige dennis roelvink gemaakt! <br>" +
+			"dan nu even praten over die gekke cadeaus, <br>" +
+			"want die zijn echt super awesome en grandioos! <br>" +
+			"melissa houdt van het tekenen met papier en potlood, <br>" + 
+			"en het liefst eentje met een gum, voor wanneer je het verkloot. <br>" +
+			"wellicht is er nog meer te vinden in de vorm van een pakje, <br>" +
+			"dus beter beginnen met zoeken, jij maniakje ( ͡° ͜ʖ ͡°)"
+			);
+		} else {
+			var para = document.getElementById("errorcode");
+			var text = document.createTextNode("Hahaaa! dat was verkeerd noob ( ͡° ͜ʖ ͡°)");
+			para.appendChild(text);
+		};
+	};
+	</script>
+</body>
+</html>
