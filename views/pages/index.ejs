@@ -26,10 +26,13 @@
 			"dus beter beginnen met zoeken, jij maniakje ( ͡° ͜ʖ ͡°) <br>" + 
 			"<img src='https://img.buzzfeed.com/buzzfeed-static/static/2014-04/enhanced/webdr06/18/11/original-14726-1397834563-17.jpg?downsize=715:*&output-format=auto&output-quality=auto'>"
 			);
+		} else if(document.getElementById("code").value == "NEGERMAAN") {
+			document.getElementById("errorcode").innerHTML = "banaan";
 		} else {
-			var para = document.getElementById("errorcode");
-			var text = document.createTextNode("Hahaaa! dat was verkeerd noob ( ͡° ͜ʖ ͡°)");
-			para.appendChild(text);
+			//var para = document.getElementById("errorcode");
+			document.getElementById("errorcode").innerHTML = "Hahaaa! dat was verkeerd noob ( ͡° ͜ʖ ͡°)";
+			//var text = document.createTextNode("Hahaaa! dat was verkeerd noob ( ͡° ͜ʖ ͡°)");
+			//para.appendChild(text);
 		};
 	};
 	</script>
