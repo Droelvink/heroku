@@ -1,0 +1,19 @@
+html, body, head {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    overflow:hidden;
+}
+
+textarea {
+    padding: 25px;
+    font-family: 'Roboto Mono';
+    font-size: 15px;
+    background-color: black;
+    min-width: 100%;
+    min-height: 100%;
+    resize: none;
+    color: lime;
+    display: block;
+}
