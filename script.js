@@ -57,7 +57,6 @@ document.onkeyup = function(e) {
 }
 
 function IsAllowedToType(key) {
-    "";
     return (allowed.search(key) >= 0);
 }
 
