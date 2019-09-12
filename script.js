@@ -42,7 +42,7 @@ document.onkeyup = function(e) {
 
             switch(command) {
                 case "EXIT":
-                    textarea.value += "\nWhy would you leave?\nMAIN>"
+                    textarea.value += "\nWhy would you leave?\nMAIN>";
                     break;
 
                     default:
