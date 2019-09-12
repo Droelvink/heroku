@@ -36,14 +36,13 @@ document.onkeyup = function(e) {
         }
         else if (e.key === "Backspace") {
             if(textarea.value[textarea.value.length-1] !== ">") textarea.value = textarea.value.slice(0, textarea.value.length-1);
-            
             if(command.length > 0) command = command.slice(0, command.value.length -1);
         }
         else if (e.key === "Enter") {
 
             switch(command) {
-                case "CLEAR":
-                    textarea.value += "\nClever person...\nMAIN>";
+                case "EXIT":
+                    textarea.value += "\nWhy would you leave?\nMAIN>"
                     break;
 
                     default:
